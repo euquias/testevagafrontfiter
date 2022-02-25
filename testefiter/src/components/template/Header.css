@@ -1,0 +1,11 @@
+header.header{
+    margin-top: 15px;
+    padding: 0px 15px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+header.header h1{
+    font-size: 1.8rm;
+
+}
