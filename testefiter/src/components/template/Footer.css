@@ -1,0 +1,7 @@
+span h4{
+    display: flex;
+    justify-content: end;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
