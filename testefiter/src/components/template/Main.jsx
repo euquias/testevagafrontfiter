@@ -5,7 +5,10 @@ import Header from './Header'
 export default props =>
     <React.Fragment>
         <Header {...props} />
-        <main className='content'>
-            conteudo
+        <main className='content  container-fluid'>
+            <dir className="p-3 mt-3" >
+                {props.children}
+            </dir>
+            
         </main>
     </React.Fragment>
