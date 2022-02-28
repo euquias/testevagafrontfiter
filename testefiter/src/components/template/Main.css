@@ -1,7 +1,7 @@
-main > div {
+/* main > div {
     background-color: #fff;
     box-shadow: 0px 0px 14px black;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
@@ -19,14 +19,20 @@ p {
   font-size: 14px;
   line-height: 21px;
 }
+.card{
+  display: flex;
+}
 
-.card-container {
+
+
+.card-body {
+  
   background-color: #231E39;
   border-radius: 5px;
   box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
   color: #B3B8CD;
   padding-top: 30px;
-  position: relative;
+  
   width: 300px;
   max-width: 100%;
   text-align: center;
@@ -34,11 +40,20 @@ p {
 
 
 
-.card-container .round {
+.card-body .round {
   border: 1px solid #03BFCB;
   border-radius: 50%;
   padding: 7px;
 }
+.close:hover {
+  background-color: red;
+}
+.card-body i{
+  display: flex;
+  justify-content: end;
+  border: 1px 1px 0px 1px solid #fff;    
+}
+
 
 button.primary {
   background-color: #03BFCB;
@@ -55,24 +70,8 @@ button.primary.ghost {
   color: #02899C;
 }
 
-.skills {
-  background-color: #1F1A36;
-  text-align: left;
-  padding: 15px;
-  margin-top: 30px;
+form.content{
+  display: flex;
+  justify-content: center;
 }
 
-.skills ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.skills ul li {
-  border: 1px solid #2D2747;
-  border-radius: 2px;
-  display: inline-block;
-  font-size: 12px;
-  margin: 0 7px 7px 0;
-  padding: 7px;
-}
